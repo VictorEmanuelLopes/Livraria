@@ -1,11 +1,23 @@
-.cabecalho{
+.cabecalho {
 
-background-color: var(--cor-cabecalho);
-
+    background-color: var(--cor-cabecalho);
 
 }
 
-.container__titulo{
-  display: none;
+.container {
+    display: flex;
+
+}
+
+.container__titulo {
+    display: none;
+
+}
+
+@media screen and (min-width:820px) {
+
+    .container__titulo {
+        display: inline;
+    }
 
 }
