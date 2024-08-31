@@ -4,3 +4,8 @@ background-color: var(--cor-cabecalho);
 
 
 }
+
+.container__titulo{
+  display: none;
+
+}
